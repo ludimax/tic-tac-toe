@@ -1,0 +1,85 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: #6f6f6f;
+}
+
+.fa-circle {
+    color: #624c47;
+}
+
+.fa-times {
+    color: #afd9c8;
+}
+
+.board .cell {
+    min-height: 7em;
+}
+
+.board .cell.empty,
+#start-new-game i
+{
+    cursor: pointer;
+}
+
+#start-new-game i.fa-circle:hover,
+#start-new-game i.fa-circle:focus {
+    color: #443532;
+}
+
+#start-new-game i.fa-times:hover,
+#start-new-game i.fa-times:focus {
+    color: #8cc9b0;
+}
+
+.board .cell.empty i
+{
+    visibility: hidden;
+}
+.board .cell.empty i.fa-times
+{
+    color: #DCEBDF;
+}
+.board .cell.empty i.fa-circle
+{
+    color: #bd9a8a;
+}
+
+.board .cell.empty:hover i
+{
+    visibility: visible;
+}
+
+.board .cell.winner-cell i
+{
+    color: #F7374B;
+}
+
+#board-section.board-disabled .board .cell.empty:hover i
+{
+    visibility: hidden;
+}
+#board-section.board-disabled .board .cell.empty
+{
+    cursor: default;
+}
+
+.board .cell-0-1,
+.board .cell-1-1,
+.board .cell-2-1 {
+    border-right: 2px solid #dcebdf;
+    border-left: 2px solid #dcebdf;
+}
+
+.board .cell-1-0,
+.board .cell-1-1,
+.board .cell-1-2 {
+    border-top: 2px solid #dcebdf;
+    border-bottom: 2px solid #dcebdf;
+}
