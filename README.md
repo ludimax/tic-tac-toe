@@ -10,8 +10,9 @@ PHP leent zich goed om containerized te draaien, dus is het jullie taak om dit v
 - Maak een Dockerfile die ervoor zorgt dat de game in een container draait. Gebruik PHP 7.3.33 en Composer 1.7.
 
 ### Bonus objectives
-- Zorg ervoor dat de container geschikt is om unprivileged te runnen
+- Zorg ervoor dat de container geschikt is om unprivileged te runnen.
 - Zorg ervoor dat PHP extentie GD beschikbaar is. 
 - Maak gebruik van multi-stage container build. 
+- Alle OS packages moeten up-to-date zijn.
 
 Success!
