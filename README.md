@@ -3,7 +3,7 @@
 Docker workshop
 
 ## Wat moet je gaan doen?
-In deze Git repo vindt je alle benodigdheden om de game tic-tac-toe te draaien. 
+In deze Git repo vindt je alle benodigdheden voor de game tic-tac-toe.
 PHP leent zich goed om containerized te draaien, dus is het jullie taak om dit voor elkaar te gaan krijgen
 
 ### Main objectives
